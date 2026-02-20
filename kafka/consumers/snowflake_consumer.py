@@ -3,17 +3,16 @@ Kafka Consumer for Loading Streaming Data into Snowflake
 Consumes messages from Kafka topics and loads into Snowflake Bronze layer.
 """
 
-import os
 import json
-from datetime import datetime
+import os
+import sys
 
 from confluent_kafka import Consumer, KafkaError
 from dotenv import load_dotenv
 from loguru import logger
 
-import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from config.snowflake_config import get_snowflake_connection, execute_query_no_fetch
+from config.snowflake_config import execute_query_no_fetch, get_snowflake_connection
 
 load_dotenv()
 

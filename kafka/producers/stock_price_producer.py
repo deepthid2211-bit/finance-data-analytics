@@ -3,8 +3,8 @@ Kafka Producer for Real-Time Stock Price Streaming
 Streams live stock price data from Yahoo Finance to Kafka topics.
 """
 
-import os
 import json
+import os
 import time
 from datetime import datetime
 

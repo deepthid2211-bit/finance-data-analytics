@@ -7,13 +7,13 @@ Executes the complete data pipeline end-to-end:
 """
 
 import os
-import sys
 import subprocess
+import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from loguru import logger
 from dotenv import load_dotenv
+from loguru import logger
 
 load_dotenv()
 

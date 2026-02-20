@@ -1,8 +1,9 @@
 """Snowflake connection configuration and helper utilities."""
 
 import os
-from dotenv import load_dotenv
+
 import snowflake.connector
+from dotenv import load_dotenv
 from loguru import logger
 
 load_dotenv()

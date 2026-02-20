@@ -5,15 +5,17 @@ Run this script to generate all charts in the /images folder.
 """
 
 import os
-import sys
-import pandas as pd
+
 import matplotlib
+import pandas as pd
+
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-import seaborn as sns
-from datetime import datetime
 import warnings
+
+import matplotlib.dates as mdates
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 warnings.filterwarnings('ignore')
 
 # Setup paths
@@ -237,7 +239,7 @@ def chart_forex_rates(data):
     # Daily change comparison
     latest = df.sort_values('TRADE_DATE').groupby('PAIR').last()
     colors = [COLORS['success'] if x >= 0 else COLORS['danger'] for x in latest['DAILY_CHANGE_PCT'].values]
-    bars = ax2.bar(latest.index.str.replace('=X', ''), latest['DAILY_CHANGE_PCT'], color=colors, edgecolor='white')
+    ax2.bar(latest.index.str.replace('=X', ''), latest['DAILY_CHANGE_PCT'], color=colors, edgecolor='white')
     ax2.set_title('Latest Daily Change (%)', fontsize=14, fontweight='bold')
     ax2.set_ylabel('Daily Change (%)')
     ax2.axhline(y=0, color=COLORS['text'], linestyle='-', linewidth=0.5)
@@ -263,7 +265,7 @@ def chart_news_sentiment(data):
     sentiment_colors = {'positive': COLORS['success'], 'negative': COLORS['danger'], 'neutral': COLORS['secondary']}
     counts = df['SENTIMENT_LABEL'].value_counts()
     axes[0][0].pie(counts.values, labels=counts.index, autopct='%1.1f%%',
-                   colors=[sentiment_colors.get(l, COLORS['primary']) for l in counts.index],
+                   colors=[sentiment_colors.get(label, COLORS['primary']) for label in counts.index],
                    textprops={'color': COLORS['text'], 'fontsize': 12},
                    wedgeprops={'edgecolor': COLORS['bg'], 'linewidth': 2})
     axes[0][0].set_title('Sentiment Distribution', fontsize=14, fontweight='bold')
@@ -412,8 +414,6 @@ def chart_executive_dashboard(data):
     """Executive summary KPI dashboard."""
     print("Generating: Executive Dashboard...")
     df = data['summary']
-    portfolio = data['portfolio']
-
     fig = plt.figure(figsize=(20, 12))
     fig.suptitle('Finance Data Analytics - Executive Dashboard', fontsize=22, fontweight='bold', y=0.98)
 

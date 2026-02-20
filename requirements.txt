@@ -24,3 +24,7 @@ python-dotenv>=1.0.0
 pandas>=2.0.0
 schedule>=1.2.0
 loguru>=0.7.0
+
+# Linting & Testing
+ruff>=0.3.0
+pytest>=8.0.0

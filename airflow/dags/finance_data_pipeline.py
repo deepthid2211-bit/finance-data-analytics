@@ -7,10 +7,12 @@ Orchestrates the full medallion architecture:
 """
 
 from datetime import datetime, timedelta
-from airflow import DAG
-from airflow.operators.python import PythonOperator
+
 from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 from airflow.utils.task_group import TaskGroup
+
+from airflow import DAG
 
 # ----------------------------------------------------------
 # Default Args

@@ -7,18 +7,21 @@ Processes financial news articles with NLP:
 Loads enriched data into Snowflake Silver layer.
 """
 
-import os
-import json
 import hashlib
-from datetime import datetime
-
-from textblob import TextBlob
-from loguru import logger
-from dotenv import load_dotenv
-
+import json
+import os
 import sys
+
+from dotenv import load_dotenv
+from loguru import logger
+from textblob import TextBlob
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config.snowflake_config import get_snowflake_connection, execute_query, execute_query_no_fetch
+from config.snowflake_config import (
+    execute_query,
+    execute_query_no_fetch,
+    get_snowflake_connection,
+)
 
 load_dotenv()
 

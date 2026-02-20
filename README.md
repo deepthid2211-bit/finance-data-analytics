@@ -1,3 +1,5 @@
+> **Impact:** Built a production-grade finance analytics pipeline ingesting real-time market data from Yahoo Finance via Kafka into Snowflake's Medallion Architecture (Bronze -> Silver -> Gold). Delivered 12 dbt incremental models with 19 data quality tests, NLP sentiment analysis on 56+ news articles, and 11 executive-ready analytical dashboards — all orchestrated with Airflow DAGs.
+
 # Finance Data Analytics Pipeline
 
 An end-to-end finance data analytics platform that ingests real-time and batch market data from Yahoo Finance, processes it through a **Medallion Architecture** in **Snowflake**, and generates insightful visualizations. The project showcases modern data engineering practices including streaming with **Kafka**, transformations with **dbt**, orchestration with **Airflow**, and NLP-based sentiment analysis on financial news.
@@ -50,6 +52,23 @@ Yahoo Finance API
 - **Automated Orchestration** - Apache Airflow DAGs for daily and weekly pipeline scheduling
 - **Snowpipe & CDC Streams** - Auto-ingest and Change Data Capture for near real-time updates
 - **Comprehensive Visualizations** - 11 publication-ready analytical charts
+
+---
+
+## Demo & Screenshots
+
+### Executive Dashboard
+![Executive Dashboard](images/10_executive_dashboard.png)
+
+### Stock Price Trends & Risk Analysis
+| Stock Trends | Risk vs Return |
+|:---:|:---:|
+| ![Stock Trends](images/01_stock_price_trends.png) | ![Risk Return](images/07_risk_return.png) |
+
+### Crypto & Sentiment Analysis
+| Crypto Dashboard | News Sentiment |
+|:---:|:---:|
+| ![Crypto](images/04_crypto_dashboard.png) | ![Sentiment](images/06_news_sentiment.png) |
 
 ---
 
@@ -249,6 +268,17 @@ Sources (Bronze)
 
 ## Setup & Installation
 
+### Quick Start (TL;DR)
+```bash
+make setup        # Install dependencies
+make snowflake    # Create Snowflake objects
+make ingest       # Pull Yahoo Finance data
+make dbt          # Run transformations + tests
+make analysis     # Generate 11 analytical charts
+# OR run everything:
+make all
+```
+
 ### Prerequisites
 - Python 3.11+
 - Snowflake account
@@ -367,6 +397,14 @@ Yahoo Finance API ----> Kafka Producer ----> 3 Topics ----> Kafka Consumer ---->
 4. **CDC with Snowflake Streams** - Change Data Capture streams on Bronze tables track inserts/updates for downstream Silver layer consumption.
 
 5. **Surrogate Key Generation** - Uses `dbt_utils.generate_surrogate_key()` for reliable deduplication across incremental loads.
+
+---
+
+## Security
+
+> **Never commit credentials.** Use environment variables via `.env` (excluded in `.gitignore`).
+> See [`.env.example`](.env.example) for the required configuration template.
+> See [`SECURITY.md`](SECURITY.md) for full security guidelines.
 
 ---
 

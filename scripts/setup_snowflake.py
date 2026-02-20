@@ -5,13 +5,13 @@ Runs all SQL scripts to create the database, schemas, tables, and objects.
 
 import os
 import sys
-import re
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from config.snowflake_config import get_snowflake_connection
-from loguru import logger
 from dotenv import load_dotenv
+from loguru import logger
+
+from config.snowflake_config import get_snowflake_connection
 
 load_dotenv()
 
