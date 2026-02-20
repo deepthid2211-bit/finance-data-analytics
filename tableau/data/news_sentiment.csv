@@ -1,0 +1,57 @@
+TRADE_DATE,TICKER,HEADLINE,SENTIMENT_SCORE,SENTIMENT_LABEL,SUBJECTIVITY_SCORE,SOURCE_PROVIDER
+2026-02-18,AMZN,"Here's Why Amazon, Alphabet, and Microsoft's AI Spending Is a Genius Move",0.0,neutral,0.0,Motley Fool
+2026-02-18,GOOGL,"Here's Why Amazon, Alphabet, and Microsoft's AI Spending Is a Genius Move",0.0,neutral,0.0,Motley Fool
+2026-02-18,MSFT,"Here's Why Amazon, Alphabet, and Microsoft's AI Spending Is a Genius Move",0.0,neutral,0.0,Motley Fool
+2026-02-18,META,Stock Market Today: Nasdaq Leads Upside As Solar Stocks Shine; Amer Sports Glows In Breakout (Live Coverage),0.1364,positive,0.5,Investor's Business Daily
+2026-02-18,JPM,Sector Update: Financial Stocks Rise in Afternoon Trading,0.0,neutral,0.0,MT Newswires
+2026-02-18,GOOGL,Nvidia Wins Meta Deal. Its Gain Is Broadcom’s Loss.,0.0875,neutral,0.2875,Barrons.com
+2026-02-18,AMZN,Tech Majors Help Lift Equity Markets Intraday Ahead of Fed Minutes,0.1562,positive,0.5,MT Newswires
+2026-02-18,GOOGL,Prediction: These 3 AI Stocks Will Have Tremendous Momentum in 2026,0.5333,positive,0.9833,Motley Fool
+2026-02-18,AMZN,Prediction: These 3 AI Stocks Will Have Tremendous Momentum in 2026,0.5333,positive,0.9833,Motley Fool
+2026-02-18,AMZN,"Berkshire Cuts Amazon Stake, Makes Bet on New York Times",0.1788,positive,0.2626,Bloomberg
+2026-02-18,GOOGL,"Big Short Steve Eisman Favors Schwab, Cites Robinhood's Lack Of 'Margin For Error' Amid Bitcoin-Led Crypto Slide",0.075,neutral,0.335,Benzinga
+2026-02-18,AMZN,"Big Short Steve Eisman Favors Schwab, Cites Robinhood's Lack Of 'Margin For Error' Amid Bitcoin-Led Crypto Slide",0.075,neutral,0.335,Benzinga
+2026-02-18,GOOGL,Meta CEO Zuckerberg to Testify in Youth Addiction Trial,0.1,neutral,0.15,GuruFocus.com
+2026-02-18,GOOGL,Anthropic May Pay $6.4 Billion To Cloud Partners,0.0,neutral,0.0,GuruFocus.com
+2026-02-18,AMZN,Anthropic May Pay $6.4 Billion To Cloud Partners,0.0,neutral,0.0,GuruFocus.com
+2026-02-18,AAPL,Covered-Call Strategy Turns Apple Stock Into Income Play,0.5,positive,0.5,Investor's Business Daily
+2026-02-18,JPM,JPMorgan Branch Build Out Tests Costs Funding And Long Term Returns,0.0715,neutral,0.3868,Simply Wall St.
+2026-02-18,V,Global Payments Q4 Earnings Meet on Merchant Solutions Strength,0.0278,neutral,0.2222,Zacks
+2026-02-18,AAPL,Amazon and Nvidia Lead Mag 7 Rally,0.3542,positive,0.4708,Barrons.com
+2026-02-18,GOOGL,Amazon and Nvidia Lead Mag 7 Rally,0.3542,positive,0.4708,Barrons.com
+2026-02-18,AMZN,Amazon and Nvidia Lead Mag 7 Rally,0.3542,positive,0.4708,Barrons.com
+2026-02-18,AAPL,"PayPal (PYPL) is Facing Stiff Competition From Apple, Believes Jim Cramer",-0.164,negative,0.3378,Insider Monkey
+2026-02-18,V,Here’s the net worth and income of America’s top 10%. How to ride the wave and catch up fast,0.3,positive,0.34,Moneywise
+2026-02-18,AAPL,Warren Buffett’s Final Investment: The Oracle Ends His Career Where He Started,0.1909,positive,0.6935,24/7 Wall St.
+2026-02-18,META,Meta CEO Mark Zuckerberg set to testify in teen social media addiction suit,0.0323,neutral,0.1583,Yahoo Finance
+2026-02-18,JPM,3 Large-Cap Growth Funds to Buy as Consumer Sentiment Rebounds,0.16,positive,0.54,Zacks
+2026-02-18,TSLA,Uber bets big on EV charging for both its drivers and future robotaxis,0.0894,neutral,0.3174,Yahoo Finance
+2026-02-18,AAPL,Garmin Stock Is Surging. There’s More to Its Move Than Solid Earnings.,0.1583,positive,0.4583,Barrons.com
+2026-02-18,JNJ,"Halozyme's Q4 Earnings Miss, Higher Royalties Drive Y/Y Revenues",0.375,positive,0.5,Zacks
+2026-02-18,V,5 Financial Transaction Stocks to Watch Despite Elevated Expense Level,0.0,neutral,0.3333,Zacks
+2026-02-18,NVDA,"Nvidia in focus: Meta partnership expanded, Arm stake sold",0.2383,positive,0.372,Yahoo Finance Video
+2026-02-18,AAPL,"Berkshire's NYT Stake Looks Like New Abel, Not Old Buffett",0.0557,neutral,0.5273,Moby
+2026-02-18,JNJ,Johnson & Johnson to Invest More Than $1 Billion in Pennsylvania Cell Therapy Factory,0.3,positive,0.4,The Wall Street Journal
+2026-02-18,JNJ,J&J to invest $1 billion in new Pennsylvania plant amid US manufacturing push,0.1545,positive,0.3952,Reuters
+2026-02-18,AAPL,"Berkshire Cuts Amazon, Buys New York Times",0.0057,neutral,0.6023,GuruFocus.com
+2026-02-18,AAPL,Amazon and Bank of America Stocks Shrug Off Berkshire Sales. Why They’re Rising.,0.0,neutral,1.0,Barrons.com
+2026-02-18,JNJ,Verizon vs Johnson & Johnson: Which Dividend Hike Winner Is the Better Buy?,0.3333,positive,0.5933,24/7 Wall St.
+2026-02-18,V,Digital payments sovereignty: Industry responds to UK domestic card payments alternative,0.0341,neutral,0.1636,Retail Banker International
+2026-02-18,JPM,Should JPMorgan Diversified Return U.S. Mid Cap Equity ETF (JPME) Be on Your Investing Radar?,0.0,neutral,0.0,Zacks
+2026-02-18,JPM,JPMorgan Chase targets 160 branch openings this year,0.0625,neutral,0.5,Banking Dive
+2026-02-18,V,US stocks are off to their worst start versus the global market since 1995,-0.3333,negative,0.3333,Yahoo Finance
+2026-02-18,JNJ,XLV is A $41 Billion Defensive Healthcare Play That Looks Good Until You Compare To The S&P 500,0.2536,positive,0.35,24/7 Wall St.
+2026-02-18,JPM,JPMorgan plans branch opening spree as peers bet on in-person banking,0.3333,positive,0.5,Financial Times
+2026-02-18,JPM,1 Mega-Cap Stock on Our Watchlist and 2 We Avoid,-0.0833,neutral,0.4083,StockStory
+2026-02-18,JNJ,This State Has More Millionaires Per Capita Than Any Other,0.2854,positive,0.4146,24/7 Wall St.
+2026-02-17,V,Visa Faces New European Payment Rivals While Expanding Global Reach,0.0185,neutral,0.1489,Simply Wall St.
+2026-02-17,AMZN,Nvidia and Meta expand GPU team with millions of additional AI chips,0.5,positive,0.5,Yahoo Finance
+2026-02-17,NVDA,Nvidia and Meta expand GPU team with millions of additional AI chips,0.5,positive,0.5,Yahoo Finance
+2026-02-17,GOOGL,Nvidia and Meta expand GPU team with millions of additional AI chips,0.5,positive,0.5,Yahoo Finance
+2026-02-17,MSFT,Nvidia and Meta expand GPU team with millions of additional AI chips,0.5,positive,0.5,Yahoo Finance
+2026-02-17,JPM,Big Bank CEOs received serious pay bumps in 2025,0.0588,neutral,0.4426,Yahoo Finance Video
+2026-02-17,AAPL,"Stock market today: Dow, S&P 500, Nasdaq end higher in volatile trading day as Apple jumps",0.05,neutral,0.3,Yahoo Finance
+2026-02-17,V,Does Europe Need an Airbus for Payments?,-0.1083,negative,0.525,Moby
+2026-02-17,V,Options Traders’ Relaxed Hedging Against Visa (V) Stock May Offer a Hidden Bullish Signal,-0.1826,negative,0.6136,Barchart
+2026-02-17,V,Investors Heavily Search Visa Inc. (V): Here is What You Need to Know,0.1,neutral,0.4167,Zacks
+2026-02-17,V,The XLF Financial Sector ETF Puts 25% of Your Money in Just Two Stocks,0.1417,positive,0.2222,24/7 Wall St.

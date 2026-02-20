@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: stg_stock_prices
+    description: "Staged stock prices from Yahoo Finance with dedup"
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: ticker
+        tests:
+          - not_null
+      - name: trade_date
+        tests:
+          - not_null
+      - name: close_price
+        tests:
+          - not_null
+
+  - name: stg_crypto_prices
+    description: "Staged cryptocurrency prices with dedup"
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: ticker
+        tests:
+          - not_null
+
+  - name: stg_forex_rates
+    description: "Staged forex exchange rates with dedup"
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: pair
+        tests:
+          - not_null
+
+  - name: stg_financial_news
+    description: "Staged financial news articles with dedup"
+    columns:
+      - name: news_id
+        tests:
+          - unique
+          - not_null
+      - name: ticker
+        tests:
+          - not_null

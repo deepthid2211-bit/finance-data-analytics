@@ -1,0 +1,50 @@
+# Environment variables (contains secrets)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow/airflow.db
+airflow/logs/
+airflow/airflow-webserver.pid
+airflow/webserver_config.py
+airflow/airflow.cfg
+airflow/standalone_admin_password.txt
+
+# dbt
+dbt/finance_analytics/target/
+dbt/finance_analytics/dbt_packages/
+dbt/finance_analytics/logs/
+dbt/finance_analytics/package-lock.yml
+dbt/finance_analytics/.user.yml
+
+# Kafka logs
+kafka/logs/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/

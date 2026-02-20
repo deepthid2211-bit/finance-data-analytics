@@ -1,0 +1,53 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: FINANCE_DB
+    schema: BRONZE
+    tables:
+      - name: raw_stock_prices
+        description: "Raw stock price data from Yahoo Finance"
+        columns:
+          - name: ticker
+            tests:
+              - not_null
+          - name: raw_data
+            tests:
+              - not_null
+
+      - name: raw_crypto_prices
+        description: "Raw cryptocurrency price data"
+        columns:
+          - name: ticker
+            tests:
+              - not_null
+
+      - name: raw_forex_rates
+        description: "Raw forex exchange rate data"
+        columns:
+          - name: pair
+            tests:
+              - not_null
+
+      - name: raw_financial_news
+        description: "Raw financial news articles (unstructured)"
+        columns:
+          - name: ticker
+            tests:
+              - not_null
+
+      - name: raw_company_fundamentals
+        description: "Raw company financial fundamentals"
+
+      - name: raw_economic_indicators
+        description: "Raw economic indicator data"
+
+  - name: silver
+    database: FINANCE_DB
+    schema: SILVER
+    tables:
+      - name: stock_prices_clean
+      - name: crypto_prices_clean
+      - name: forex_rates_clean
+      - name: company_profiles
+      - name: news_enriched
